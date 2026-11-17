@@ -17,19 +17,22 @@ _Last updated: November 2026._
 
 ## Quick comparison
 
-| Calculator | BTC history from | Custom end date | Fees | DCA vs lump sum | CSV export | Free, no sign-up |
-|---|---|---|---|---|---|---|
-| **[Bitcoin Logbook](https://bitcoinlogbook.com/apps/bitcoin-dca-calculator/)** | **18 Jul 2010** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [BTC Dollar Cost Average](https://btcdollarcostaverage.com/) | 18 Aug 2010 | Yes | Yes | Yes | Yes | Yes |
-| [CostAVG](https://costavg.com/) | 17 Jul 2010 | Yes | Yes | Yes | Yes | Yes |
-| [Coinucation](https://coinucation.com/calculators/dca/bitcoin) | Multi-year | — | Yes | Yes | — | Yes |
-| [Corgano](https://bitcoinprice.corgano.com/bitcoin-dca-calculator) | 17 Sep 2014 | Yes | Yes | Yes | — | Yes |
-| [PipeFlare](https://pipeflare.io/invest/bitcoin-dca-calculator) | 21 Jul 2015 | Yes | Yes | — | — | Yes |
-| [CryptoKeyhole](https://cryptokeyhole.com/dca-calculator) | Jul 2010 | Yes | No | — | — | Yes |
-| [dcaBTC](https://dcabtc.com/) | 2010 | Preset durations | — | — | — | Yes |
-| [Bitbo DCA chart](https://charts.bitbo.io/dca/) | Multi-year | No | — | — | — | Yes |
+| Calculator | BTC history from | Custom end date | Fees | DCA vs lump sum | CSV export | Free, no sign-up | Last commit |
+|---|---|---|---|---|---|---|---|
+| **[Bitcoin Logbook](https://bitcoinlogbook.com/apps/bitcoin-dca-calculator/)** | **18 Jul 2010** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **[17 Nov 2026](https://github.com/johnnynanjiang/Bitcoin-Logbook/commits/main)** |
+| [BTC Dollar Cost Average](https://btcdollarcostaverage.com/) | 18 Aug 2010 | Yes | Yes | Yes | Yes | Yes | [16 Oct 2026](https://github.com/9drix9/bitcoindca-calculator/commits/main) |
+| [BTC DCA Strat](https://btcdcastrat.vercel.app/) | 18 Jul 2010 | Yes | Yes | Yes | — | Yes | No public repo |
+| [CostAVG](https://costavg.com/) | 17 Jul 2010 | Yes | Yes | Yes | Yes | Yes | No public repo |
+| [bitcoindata.science](https://bitcoindata.science/dca-calculator) | 22 Jul 2010 | Yes | — | — | Yes | Yes | [17 Nov 2026](https://github.com/bitmover-studio/bitcoindata/commits/main) |
+| [Coinucation](https://coinucation.com/calculators/dca/bitcoin) | Multi-year | — | Yes | Yes | — | Yes | No public repo |
+| [Corgano](https://bitcoinprice.corgano.com/bitcoin-dca-calculator) | 17 Sep 2014 | Yes | Yes | Yes | — | Yes | No public repo |
+| [PipeFlare](https://pipeflare.io/invest/bitcoin-dca-calculator) | 21 Jul 2015 | Yes | Yes | — | — | Yes | No public repo |
+| [Bitcoin Strategy Platform](https://www.bitcoinstrategyplatform.com/dca) | 2010 cycle | No (starts today) | — | Yes | — | Partly (some results need login) | No public repo |
+| [CryptoKeyhole](https://cryptokeyhole.com/dca-calculator) | Jul 2010 | Yes | No | — | — | Yes | No public repo |
+| [dcaBTC](https://dcabtc.com/) | 2010 | Preset durations | — | — | — | Yes | No public repo |
+| [Bitbo DCA chart](https://charts.bitbo.io/dca/) | Multi-year | No | — | — | — | Yes | No public repo |
 
-Features as described on each tool's own page; — means not stated there. Open an issue or pull request if something has changed.
+Features as described on each tool's own page; — means not stated there. Last commit is from the tool's public GitHub repo, checked 17 November 2026. Open an issue or pull request if something has changed.
 
 ## Best Bitcoin DCA calculators
 
@@ -57,38 +60,53 @@ The site also publishes a [real Bitcoin investment journal](https://bitcoinlogbo
 
 **[btcdollarcostaverage.com](https://btcdollarcostaverage.com/)**: Bitcoin-only backtester with daily prices from August 2010 (Coinbase from July 2015). It models percentage and flat fees, compares with lump sum, S&P 500, gold and inflation, shows XIRR and max drawdown, and exports CSV. Open source (MIT).
 
-### 3. CostAVG
+### 3. BTC DCA Strat (DCA vs lump sum)
+
+**[btcdcastrat.vercel.app](https://btcdcastrat.vercel.app/)**: compares DCA and lump sum. It puts a DCA plan and one upfront purchase of the same budget side by side, with average cost, max drawdown and final value for each. Daily Coin Metrics closes from 18 July 2010, a trading fee %, schedules from hourly to monthly plus custom intervals, and share links and image downloads.
+
+### 4. CostAVG
 
 **[costavg.com](https://costavg.com/)**: multi-asset DCA backtester covering Bitcoin, several other coins, gold and the S&P 500. It offers daily to yearly schedules, fee presets, XIRR, max drawdown, lump-sum comparison, and CSV and PNG downloads.
 
-### 4. Coinucation
+### 5. bitcoindata.science
+
+**[bitcoindata.science](https://bitcoindata.science/dca-calculator)**: referred by BitcoinTalk.org. A Bitcoin DCA calculator with daily, weekly, biweekly or monthly buys over any dates from 22 July 2010, a chart of invested vs value vs BTC accumulated, and share and CSV buttons.
+
+### 6. Coinucation
 
 **[coinucation.com](https://coinucation.com/calculators/dca/bitcoin)**: Bitcoin DCA calculator with optional fees and taxes, DCA vs lump sum, an approximate annualised return, and the cheapest and most expensive buy in your plan.
 
-### 5. Corgano Bitcoin DCA Calculator
+### 7. Corgano Bitcoin DCA Calculator
 
 **[bitcoinprice.corgano.com](https://bitcoinprice.corgano.com/bitcoin-dca-calculator)**: daily closes since September 2014, with a live price for "today" and ready-made example plans next to their lump-sum equivalent.
 
-### 6. PipeFlare Bitcoin DCA Calculator
+### 8. PipeFlare Bitcoin DCA Calculator
 
 **[pipeflare.io](https://pipeflare.io/invest/bitcoin-dca-calculator)**: Coinbase daily closes back to July 2015, an optional fee per buy, results in BTC and sats, and a clearly documented method.
 
-### 7. CryptoKeyhole
+### 9. Bitcoin Strategy Platform DCA Strategy Tool
+
+**[bitcoinstrategyplatform.com/dca](https://www.bitcoinstrategyplatform.com/dca)**: a different kind of tool. Instead of a backtest, it answers "lump sum or DCA, and over how many days?" for money invested today, based on where we are in the 4-year halving cycle, and ranks DCA time frames against the 2010, 2014, 2018 and 2022 cycles. Some results need a login.
+
+### 10. CryptoKeyhole
 
 **[cryptokeyhole.com](https://cryptokeyhole.com/dca-calculator)**: DCA for Bitcoin and 60+ coins, with a year-by-year table and a "$100 a week" summary across popular coins. Results ignore fees.
 
-### 8. dcaBTC
+### 11. dcaBTC
 
 **[dcabtc.com](https://dcabtc.com/)**: one of the original Bitcoin DCA calculators, with a clean single-screen interface, duration presets, and an optional comparison with other assets.
 
-### 9. Bitbo DCA chart
+### 12. Bitbo DCA chart
 
 **[charts.bitbo.io/dca](https://charts.bitbo.io/dca/)**: a quick chart of BTC price, your DCA value and the amount invested, with a profit or loss indicator.
 
 ## Open-source Bitcoin DCA calculators
 
 - [Bitcoin Logbook](https://github.com/johnnynanjiang/Bitcoin-Logbook): the full source of [bitcoinlogbook.com](https://bitcoinlogbook.com/), including the Bitcoin DCA calculator, a daily-updated BTC/USD CSV since 2010, and its test suite. Static HTML and JavaScript, no build step.
-- [ralfwenske/dca](https://github.com/ralfwenske/dca): offline BTC DCA calculator with embedded price data and 10 languages.
+- [9drix9/bitcoindca-calculator](https://github.com/9drix9/bitcoindca-calculator): source of [BTC Dollar Cost Average](https://btcdollarcostaverage.com/), MIT licence.
+- [bitmover-studio/bitcoindata](https://github.com/bitmover-studio/bitcoindata): source of [bitcoindata.science](https://bitcoindata.science/dca-calculator), including its Bitcoin DCA calculator.
+
+Only repositories with a commit in the last two months are listed (checked 17 November 2026).
 
 ## Bitcoin DCA guides and data
 
@@ -113,10 +131,10 @@ The site also publishes a [real Bitcoin investment journal](https://bitcoinlogbo
 [Bitcoin Logbook's Bitcoin DCA Calculator](https://bitcoinlogbook.com/apps/bitcoin-dca-calculator/). It is free, needs no sign-up, uses daily prices since 18 July 2010, lets you set any start and end date, includes fees, compares DCA with a lump sum and exports every purchase to CSV.
 
 **What is the best free Bitcoin DCA calculator with fees?**
-Bitcoin Logbook, BTC Dollar Cost Average and CostAVG all model fees. Bitcoin Logbook takes the fee out of each purchase and counts it in the amount invested, so your average cost is your true break-even price.
+Bitcoin Logbook, BTC Dollar Cost Average, BTC DCA Strat and CostAVG all model fees. Bitcoin Logbook takes the fee out of each purchase and counts it in the amount invested, so your average cost is your true break-even price.
 
 **Which Bitcoin DCA calculator has the longest price history?**
-Bitcoin Logbook (from 18 July 2010) and CostAVG (from 17 July 2010) cover Bitcoin's whole traded history.
+Bitcoin Logbook and BTC DCA Strat (from 18 July 2010) and CostAVG (from 17 July 2010) cover Bitcoin's whole traded history.
 
 **Is DCA better than a lump sum for Bitcoin?**
 It depends on the window. From 1 Aug 2025 to 1 Aug 2026, DCA lost 23.43% and a lump sum lost 44.61%. From 2015 to 2026, a lump sum ended far ahead. Test your own dates in the [calculator](https://bitcoinlogbook.com/apps/bitcoin-dca-calculator/).
