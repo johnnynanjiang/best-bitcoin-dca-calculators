@@ -148,4 +148,4 @@ Know a Bitcoin DCA calculator that should be here, or a feature that changed? Op
 
 ---
 
-Maintained by the author of [Bitcoin Logbook](https://bitcoinlogbook.com/). Nothing here is financial advice. Past results do not predict future returns.
+This list is maintained by the author of Bitcoin Logbook. Website: [bitcoinlogbook.com](https://bitcoinlogbook.com/) · Source code: [johnnynanjiang/Bitcoin-Logbook](https://github.com/johnnynanjiang/Bitcoin-Logbook). Nothing here is financial advice. Past results do not predict future returns.
